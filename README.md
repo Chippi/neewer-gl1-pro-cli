@@ -15,7 +15,7 @@ npm run cli -- [options]
 -t <value>, --targetIp <value>      [Required] IP address of the Neewer GL1 Pro light to control.
 --on                                Turn the light on.
 --off                               Turn the light off.
--b <value>, --brightness <value>    Set the brightness level (1-100)
+-b <value>, --brightness <value>    Set the brightness level (1-100).
 -k <value>, --kelvin <value>        Set the color temperature in Kelvin (29-70).
 -y <value>, --yourIp <value>        Specify your IP address. If not set, the system will attempt to auto-detect it.
 -q, --quiet                         Suppress all console.log outputs.
