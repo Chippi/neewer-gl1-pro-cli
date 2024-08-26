@@ -6,7 +6,9 @@
 # Usage
 
 ## Base command
-`npm run cli -- [options]`
+```
+npm run cli -- [options]
+```
 
 ## Options
 ```
