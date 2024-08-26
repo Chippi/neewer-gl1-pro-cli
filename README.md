@@ -22,10 +22,22 @@
 # Examples
 
 ## Turn on the light
-`npm run cli -- --targetIp 192.168.1.123 --on`
+```
+npm run cli -- --targetIp 192.168.1.123 --on
+```
 
 ## Turn on the light and set brightness and color temperature.
-`npm run cli -- --targetIp 192.168.1.123 --on --brightness 50 --kelvin 35`
+```
+npm run cli -- --targetIp 192.168.1.123 --on --brightness 50 --kelvin 35
+```
 
 ## Turn off the light
-`npm run cli -- --targetIp 192.168.1.123 --off`
+```
+npm run cli -- --targetIp 192.168.1.123 --off
+```
+
+
+# Credits
+
+Thanks to [braintapper](https://github.com/braintapper), for the reverse engineering work done for Neewer GL1.
+https://github.com/braintapper/neewer-gl1
