@@ -7,10 +7,10 @@ const COMMAND_DELAY = 300;
 const ON_COMMAND = '800502010189';
 const OFF_COMMAND = '800502010088';
 
-const getHandshakeCommands = (yourIp: string) => {
-  const firstCommand = `80020f00000c${textToHex(yourIp)}f9`;
-  return [firstCommand, '8006010188'];
-};
+const getHandshakeCommands = (yourIp: string) => [
+  `80020f00000c${textToHex(yourIp)}f9`,
+  '8006010188',
+];
 
 const getBrightnessAndKelvinCommand = ({
   brightness,
