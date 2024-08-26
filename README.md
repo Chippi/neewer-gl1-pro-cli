@@ -31,7 +31,8 @@ npm run cli -- [options]
 npm run cli -- --targetIp 192.168.1.123 --on
 ```
 
-### Turn on the light and set brightness and color temperature.
+### Turn on the light, set brightness and color temperature
+When setting the brightness or color temperature, you must supply both values.
 ```
 npm run cli -- --targetIp 192.168.1.123 --on --brightness 50 --kelvin 35
 ```
@@ -40,7 +41,6 @@ npm run cli -- --targetIp 192.168.1.123 --on --brightness 50 --kelvin 35
 ```
 npm run cli -- --targetIp 192.168.1.123 --off
 ```
-
 
 ## Acknowledgments
 Special thanks to [braintapper](https://github.com/braintapper/neewer-gl1) for the reverse engineering efforts done for Neewer GL1.
