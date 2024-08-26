@@ -31,7 +31,7 @@ const getOptions = () => {
     .requiredOption('-t, --targetIp <value>', 'IP address of the Neewer GL1 Pro light to control.')
     .option('--on', 'Turn the light on.')
     .option('--off', 'Turn the light off.')
-    .option('-b, --brightness <number>', 'Set the brightness level (1-100)', Number)
+    .option('-b, --brightness <number>', 'Set the brightness level (1-100).', Number)
     .option('-k, --kelvin <number>', 'Set the color temperature in Kelvin (29-70).', Number)
     .option(
       '-y, --yourIp <value>',
