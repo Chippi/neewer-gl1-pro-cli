@@ -1,16 +1,19 @@
-# Prerequisites
+# Neewer GL1 Pro CLI
+This repository provides a command-line interface (CLI) for managing Neewer GL1 Pro lights, enabling direct control over lighting features through a terminal.
+
+## Getting started
 - Install Node.js https://nodejs.org
-- Clone project
-- Run, `npm install` in project folder
+- Clone the repository and navigate to the project directory.
+- Install dependencies with `npm install`.
 
-# Usage
+## Usage
 
-## Base command
+### Base command
 ```
 npm run cli -- [options]
 ```
 
-## Options
+### Options
 ```
 -t <value>, --targetIp <value>      [Required] IP address of the Neewer GL1 Pro light to control.
 --on                                Turn the light on.
@@ -21,25 +24,23 @@ npm run cli -- [options]
 -q, --quiet                         Suppress all console.log outputs.
 ```
 
-# Examples
+## Examples
 
-## Turn on the light
+### Turn on the light
 ```
 npm run cli -- --targetIp 192.168.1.123 --on
 ```
 
-## Turn on the light and set brightness and color temperature.
+### Turn on the light and set brightness and color temperature.
 ```
 npm run cli -- --targetIp 192.168.1.123 --on --brightness 50 --kelvin 35
 ```
 
-## Turn off the light
+### Turn off the light
 ```
 npm run cli -- --targetIp 192.168.1.123 --off
 ```
 
 
-# Credits
-
-Thanks to [braintapper](https://github.com/braintapper), for the reverse engineering work done for Neewer GL1.
-https://github.com/braintapper/neewer-gl1
+## Acknowledgments
+Special thanks to [braintapper](https://github.com/braintapper/neewer-gl1) for the reverse engineering efforts done for Neewer GL1.
