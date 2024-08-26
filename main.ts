@@ -3,7 +3,7 @@ import { createSocket } from 'node:dgram';
 import { appendHexWithChecksum, guessYourIp, numberToHex, sleep, textToHex } from './src/utils';
 
 const PORT = 5052;
-const COMMAND_DELAY = 500;
+const COMMAND_DELAY = 300;
 const ON_COMMAND = '800502010189';
 const OFF_COMMAND = '800502010088';
 
